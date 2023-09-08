@@ -4,7 +4,11 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      {data.message}
+      <p>{data.message}</p>
+      <p>
+        Also worth mentioning, this monorepo has{" "}
+        <a href="https://turbo.build/">TurboPack</a>
+      </p>
     </main>
   );
 }

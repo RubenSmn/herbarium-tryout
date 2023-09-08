@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm run --parallel dev"
+    "build": "turbo run build",
+    "dev": "turbo run dev"
   },
   "keywords": [],
   "author": "RubenSmn",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.10.13"
+  }
 }
