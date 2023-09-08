@@ -15,8 +15,9 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Hello from the server"', () => {
+      const data = appController.getHello();
+      expect(data).toMatchObject({ message: 'Hello from the server' });
     });
   });
 });
