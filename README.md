@@ -22,4 +22,10 @@ Run development, this will run both the web (front-end) and server (back-end).
 pnpm dev
 ```
 
-Testing is currently only available locally for the both packages, web and server.
+To run development for a single app, run with a `--filter`
+
+```sh
+pnpm dev --filter web
+```
+
+Testing is currently only available locally for both packages, web and server.
