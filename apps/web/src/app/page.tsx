@@ -9,6 +9,7 @@ export default async function Home() {
         Also worth mentioning, this monorepo has{" "}
         <a href="https://turbo.build/">TurboPack</a>
       </p>
+      <p>Currently learning about monorepo&apos;s</p>
     </main>
   );
 }
